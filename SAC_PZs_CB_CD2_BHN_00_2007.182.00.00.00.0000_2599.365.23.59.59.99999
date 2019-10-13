@@ -1,0 +1,40 @@
+* **********************************
+* NETWORK   (KNETWK): CB
+* STATION    (KSTNM): CD2
+* LOCATION   (KHOLE): 00
+* CHANNEL   (KCMPNM): BHN
+* CREATED           : 2018-11-26T16:33:39
+* START             : 2007-07-01T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Chengdou,Sichuan Province
+* LATITUDE          : 30.910000 
+* LONGITUDE         : 103.757797 
+* ELEVATION         : 653.0  
+* DEPTH             : 0.0  
+* DIP               : 90.0 
+* AZIMUTH           : 0.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : JCZ-1H/VBB Seismometer
+* INSTGAIN          : 1.682130e+03 (M/S)
+* COMMENT           : N/A
+* SENSITIVITY       : 1.058610e+09 (M/S)
+* A0                : 2.420600e+20
+* **********************************
+ZEROS	3
+	+0.000000e+00	+0.000000e+00
+	+0.000000e+00	+0.000000e+00
+	+0.000000e+00	+0.000000e+00
+POLES	10
+	-1.219800e-02	-1.253700e-02
+	-1.219800e-02	+1.253700e-02
+	-2.665700e+02	-2.665700e+02
+	-2.665700e+02	+2.665700e+02
+	-3.338000e+02	-8.944000e+01
+	-3.338000e+02	+8.944000e+01
+	-2.443600e+02	-2.443600e+02
+	-2.443600e+02	+2.443600e+02
+	-8.944000e+01	-3.338000e+02
+	-8.944000e+01	+3.338000e+02
+CONSTANT	+2.562471e+29
